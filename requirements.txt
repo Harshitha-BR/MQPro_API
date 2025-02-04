@@ -1,0 +1,5 @@
+pytest~=8.2.1
+pytest-html~=4.1.1
+requests~=2.32.3
+pandas
+selenium~=4.21.0
