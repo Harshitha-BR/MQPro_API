@@ -1,389 +1,453 @@
-2025-02-04 12:33:41,450 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:41,450 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:41,450 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:41,450 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:41,450 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '051224', 'org_id': 2}, params = {} 
-2025-02-04 12:33:42,511 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data', 'message'] found in response.
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:42,512 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:42,513 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:42,514 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:42,514 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:42,514 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:42,514 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '453637', 'org_id': 2}, params = {} 
-2025-02-04 12:33:43,534 :INFO : API_TEST_LOG :response of data is <Response [401]>
-2025-02-04 12:33:43,535 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:43,536 :INFO : API_TEST_LOG :Success: Status code is 401 as expected.
-2025-02-04 12:33:43,536 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:43,536 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:43,536 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:43,537 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:43,537 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:43,537 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:43,545 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:43,545 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:43,546 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:43,546 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:43,546 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': ' 6789090', 'org_id': 2}, params = {} 
-2025-02-04 12:33:45,530 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:45,530 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:45,531 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:45,532 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:45,536 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:45,537 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:45,537 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:45,537 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:45,537 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': ' 6789', 'org_id': 2}, params = {} 
-2025-02-04 12:33:47,550 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:47,551 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:47,552 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:47,552 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:47,552 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:47,552 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:47,553 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:47,553 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:47,553 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:47,562 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:47,562 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:47,562 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:47,563 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:47,563 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '', 'org_id': 2}, params = {} 
-2025-02-04 12:33:48,540 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:48,540 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:48,541 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:48,541 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:48,542 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:48,542 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:48,542 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:48,542 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:48,543 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:48,551 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:48,551 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:48,552 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:48,553 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:48,553 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {}, params = {} 
-2025-02-04 12:33:49,553 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:49,554 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:49,555 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:49,557 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:49,557 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
-2025-02-04 12:33:49,557 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:49,558 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:49,558 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': {'passcode': 241024}, 'org_id': 2}, params = {} 
-2025-02-04 12:33:49,974 :INFO : API_TEST_LOG :response of data is <Response [500]>
-2025-02-04 12:33:49,974 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:49,975 :INFO : API_TEST_LOG :Success: Status code is 500 as expected.
-2025-02-04 12:33:49,975 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:49,975 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:49,976 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:49,976 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:49,976 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:49,976 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:49,984 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:49,984 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:49,985 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:49,985 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:49,985 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2, 'user_id': 4}, params = {} 
-2025-02-04 12:33:51,572 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:33:51,572 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:51,573 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:33:51,573 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:51,573 :INFO : API_TEST_LOG :Success: All expected keys ['conversation_id'] found in response.
-2025-02-04 12:33:51,574 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:51,574 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:51,582 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:51,583 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:51,583 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:51,584 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:51,584 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2, 'user_id': 1.1}, params = {} 
-2025-02-04 12:33:53,577 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:53,578 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:53,578 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:53,579 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:53,579 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:53,579 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:53,579 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:53,580 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:53,580 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:53,583 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:53,583 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:53,583 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:53,583 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:53,583 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2.1, 'user_id': 4}, params = {} 
-2025-02-04 12:33:55,573 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:55,573 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:55,573 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:55,574 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:55,579 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:55,580 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:55,580 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:55,580 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:55,580 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 1.1, 'user_id': 4.1}, params = {} 
-2025-02-04 12:33:55,988 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:55,988 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:55,989 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:55,989 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:55,989 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:55,990 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:55,990 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:55,990 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:55,991 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:55,998 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:55,998 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:55,999 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:55,999 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:55,999 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': 2, 'org_id': 4}, params = {} 
-2025-02-04 12:33:57,595 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:57,595 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:57,596 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:57,596 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:57,596 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:57,597 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:57,597 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:57,597 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:57,597 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:57,599 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:57,599 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:57,599 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:57,600 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:57,600 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the lowest cost product', 'org_id': 4}, params = {} 
-2025-02-04 12:33:59,597 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:33:59,598 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:33:59,598 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:33:59,598 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:33:59,599 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:33:59,599 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:33:59,600 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:33:59,600 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:33:59,600 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:33:59,609 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:33:59,609 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
-2025-02-04 12:33:59,609 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:33:59,610 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:33:59,610 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the lowest cost product', 'user_id': 1}, params = {} 
-2025-02-04 12:34:02,618 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:02,619 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:02,619 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:02,620 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:02,620 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:02,620 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:02,621 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:02,621 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:02,621 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:02,627 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:02,628 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:02,628 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:02,628 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:02,628 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': 1} 
-2025-02-04 12:34:03,621 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:03,622 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:03,622 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:03,622 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:03,623 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data'] found in response.
-2025-02-04 12:34:03,623 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:03,623 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:03,624 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:03,624 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:03,631 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:03,632 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:03,632 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:03,632 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:03,633 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': ''} 
-2025-02-04 12:34:05,626 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:05,627 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:05,628 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:05,628 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:05,631 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:05,632 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:05,632 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:05,632 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:05,632 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': '1.1'} 
-2025-02-04 12:34:06,912 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:06,913 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:06,913 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:06,913 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:06,913 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:06,914 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:06,914 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:06,914 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:06,915 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:06,922 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:06,923 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:06,923 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:06,923 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:06,924 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {} 
-2025-02-04 12:34:08,630 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:08,630 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:08,631 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:08,631 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:08,631 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:08,632 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:08,632 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:08,632 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:08,633 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:08,635 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:08,635 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:08,635 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:08,636 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:08,636 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {} 
-2025-02-04 12:34:09,632 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:09,633 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:09,636 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:09,636 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
-2025-02-04 12:34:09,636 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:09,636 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:09,636 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': '0'} 
-2025-02-04 12:34:11,651 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:11,652 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:11,652 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:11,652 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:11,653 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data'] found in response.
-2025-02-04 12:34:11,653 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:11,653 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:11,654 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:11,654 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:11,662 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:11,662 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
-2025-02-04 12:34:11,663 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:11,663 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:11,664 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the profit margin last quarter?', 'sql': "SELECT ((SUM(revenue_with_gst) - SUM(salary) - SUM(incentive)) / SUM(revenue_with_gst)) * 100 AS profit_margin FROM profitability WHERE month_year >= '2024-07-01' AND month_year < '2024-10-01';"}, params = {} 
-2025-02-04 12:34:12,421 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:12,422 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:12,422 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:12,422 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:12,422 :INFO : API_TEST_LOG :Success: All expected keys ['message', 'status'] found in response.
-2025-02-04 12:34:12,423 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:12,423 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:12,423 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:12,424 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:12,431 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:12,432 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
-2025-02-04 12:34:12,432 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:12,433 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:12,433 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the profit margin last quarter?'}, params = {} 
-2025-02-04 12:34:12,887 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :Success: All expected keys ['error', 'message'] found in response.
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:12,888 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:12,890 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:12,890 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
-2025-02-04 12:34:12,891 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:12,891 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:12,891 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Get, headers = {}, payload = {}, params = {} 
-2025-02-04 12:34:13,656 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:13,656 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:13,657 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:13,657 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:13,657 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:13,665 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata/309c1684-6295-54aa-b675-707f5e3e68e4-ddl
-2025-02-04 12:34:13,665 :INFO : API_TEST_LOG : endpointpoint !!!! else
-2025-02-04 12:34:13,675 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:13,676 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations
-2025-02-04 12:34:13,676 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:13,677 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:13,677 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/conversations, method is Get, headers = {}, payload = {}, params = {'user_id': 1} 
-2025-02-04 12:34:15,762 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:15,762 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:15,763 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:15,763 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:15,764 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:15,772 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:15,773 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations/296/messages
-2025-02-04 12:34:15,773 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:15,774 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:15,774 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/conversations/296/messages, method is Get, headers = {}, payload = {}, params = {'org_id': 2, 'user_id': 4} 
-2025-02-04 12:34:17,829 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:17,836 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:17,837 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:17,837 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:17,837 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:17,846 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations
-2025-02-04 12:34:19,745 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:19,745 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
-2025-02-04 12:34:19,746 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:19,746 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:19,746 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Get, headers = {}, payload = {}, params = {'user_id': 2, 'org_id': 4} 
-2025-02-04 12:34:21,687 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:21,688 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:21,688 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:21,689 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:21,689 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:21,697 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:21,698 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
-2025-02-04 12:34:21,698 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:21,699 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:21,699 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Get, headers = {}, payload = {}, params = {'user_id': '', 'org_id': 4} 
-2025-02-04 12:34:22,723 :INFO : API_TEST_LOG :response of data is <Response [400]>
-2025-02-04 12:34:22,724 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:22,724 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
-2025-02-04 12:34:22,724 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:22,725 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
-2025-02-04 12:34:22,725 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
-2025-02-04 12:34:22,725 :INFO : API_TEST_LOG :Success: Response body matches expected response.
-2025-02-04 12:34:22,726 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
-2025-02-04 12:34:22,726 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:22,734 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:22,734 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
-2025-02-04 12:34:22,735 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:22,735 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:22,736 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': 2, 'org_id': 4, 'question': 'which client has the highest billed hours'}, params = {} 
-2025-02-04 12:34:24,689 :INFO : API_TEST_LOG :response of data is <Response [409]>
-2025-02-04 12:34:24,690 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:24,690 :ERROR : API_TEST_LOG :Failure: Expected status code 201, but received 409
-2025-02-04 12:34:24,716 :INFO : API_TEST_LOG : method @@@@@ else
-2025-02-04 12:34:24,717 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
-2025-02-04 12:34:24,717 :INFO : API_TEST_LOG :***********************API Test Start*****************************
-2025-02-04 12:34:24,717 :INFO : API_TEST_LOG :***********************API Request Made*****************************
-2025-02-04 12:34:24,718 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': '', 'org_id': 4, 'question': 'What is the monthly sales trend for each region?'}, params = {} 
-2025-02-04 12:34:25,795 :INFO : API_TEST_LOG :response of data is <Response [500]>
-2025-02-04 12:34:25,796 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:25,796 :INFO : API_TEST_LOG :Success: Status code is 500 as expected.
-2025-02-04 12:34:25,797 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:25,797 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
-2025-02-04 12:34:25,807 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions/pid
-2025-02-04 12:34:27,703 :INFO : API_TEST_LOG :Result of POST: 201, Response: {'pid': 212, 'user_id': 2, 'org_schema_id': 4, 'question': 'math'}
-2025-02-04 12:34:27,704 :INFO : API_TEST_LOG :Constructed DELETE URL: https://sql-generator-90052637893.us-central1.run.app/starred-questions/212
-2025-02-04 12:34:28,704 :INFO : API_TEST_LOG :response of data is <Response [200]>
-2025-02-04 12:34:28,705 :INFO : API_TEST_LOG :*********************** Response Received *****************************
-2025-02-04 12:34:28,705 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
-2025-02-04 12:34:28,705 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
-2025-02-04 12:34:28,706 :INFO : API_TEST_LOG : endpointpoint !!!! else
+2025-02-13 14:30:13,412 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:13,413 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:13,413 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:13,413 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:13,413 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '051224', 'org_id': 2}, params = {} 
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data', 'message'] found in response.
+2025-02-13 14:30:14,664 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:14,665 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:14,665 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:14,665 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:14,666 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:14,666 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:14,667 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:14,667 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:14,667 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '453637', 'org_id': 2}, params = {} 
+2025-02-13 14:30:16,669 :INFO : API_TEST_LOG :response of data is <Response [401]>
+2025-02-13 14:30:16,670 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:16,670 :INFO : API_TEST_LOG :Success: Status code is 401 as expected.
+2025-02-13 14:30:16,671 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:16,671 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:16,671 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:16,672 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:16,672 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:16,672 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:16,674 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:16,675 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:16,675 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:16,675 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:16,675 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': ' 6789090', 'org_id': 2}, params = {} 
+2025-02-13 14:30:18,673 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:18,673 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:18,673 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:18,673 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:18,673 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:18,674 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:18,674 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:18,674 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:18,674 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:18,678 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:18,678 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:18,678 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:18,678 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:18,678 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': ' 6789', 'org_id': 2}, params = {} 
+2025-02-13 14:30:19,676 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:19,677 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:19,678 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:19,678 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:19,680 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:19,680 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:19,680 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:19,680 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:19,680 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': '', 'org_id': 2}, params = {} 
+2025-02-13 14:30:21,685 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:21,686 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:21,686 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:21,686 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:21,686 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:21,687 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:21,687 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:21,687 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:21,688 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:21,690 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:21,690 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:21,690 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:21,691 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:21,691 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {}, params = {} 
+2025-02-13 14:30:22,690 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:22,690 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:22,691 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:22,691 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:22,692 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:22,692 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:22,692 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:22,692 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:22,693 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:22,697 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:22,698 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/login
+2025-02-13 14:30:22,698 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:22,698 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:22,698 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/login, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'passcode': {'passcode': 241024}, 'org_id': 2}, params = {} 
+2025-02-13 14:30:23,692 :INFO : API_TEST_LOG :response of data is <Response [500]>
+2025-02-13 14:30:23,692 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:23,693 :INFO : API_TEST_LOG :Success: Status code is 500 as expected.
+2025-02-13 14:30:23,693 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:23,694 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:23,694 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:23,694 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:23,694 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:23,694 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:23,697 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:23,697 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:23,697 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:23,697 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:23,697 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2, 'user_id': 4}, params = {} 
+2025-02-13 14:30:26,703 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:26,703 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:26,703 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:26,704 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:26,704 :INFO : API_TEST_LOG :Success: All expected keys ['conversation_id'] found in response.
+2025-02-13 14:30:26,704 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:26,705 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:26,712 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:26,713 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:26,713 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:26,714 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:26,714 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2, 'user_id': 1.1}, params = {} 
+2025-02-13 14:30:27,155 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:27,155 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:27,156 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:27,156 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:27,156 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:27,157 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:27,157 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:27,157 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:27,158 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:27,165 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:27,166 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:27,166 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:27,166 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:27,167 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 2.1, 'user_id': 4}, params = {} 
+2025-02-13 14:30:27,706 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:27,707 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:27,707 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:27,708 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:27,708 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:27,708 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:27,709 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:27,709 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:27,709 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:27,717 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:27,717 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:27,718 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:27,718 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:27,718 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the total number of employees?', 'org_id': 1.1, 'user_id': 4.1}, params = {} 
+2025-02-13 14:30:28,709 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:28,710 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:28,710 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:28,710 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:28,711 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:28,711 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:28,711 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:28,711 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:28,712 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:28,717 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:28,718 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:28,718 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:28,718 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:28,719 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': 2, 'org_id': 4}, params = {} 
+2025-02-13 14:30:30,719 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:30,720 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:30,720 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:30,720 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:30,721 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:30,721 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:30,722 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:30,722 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:30,722 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:30,733 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:30,734 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:30,734 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:30,734 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:30,735 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the lowest cost product', 'org_id': 4}, params = {} 
+2025-02-13 14:30:31,224 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:31,225 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:31,226 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:31,226 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:31,227 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:31,227 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:31,227 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:31,228 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:31,228 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:31,237 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:31,238 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /generate_sql
+2025-02-13 14:30:31,239 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:31,239 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:31,239 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/generate_sql, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the lowest cost product', 'user_id': 1}, params = {} 
+2025-02-13 14:30:31,738 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:31,739 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:31,739 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:31,739 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:31,740 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:31,740 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:31,740 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:31,741 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:31,741 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:31,751 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:31,752 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:31,753 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:31,753 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:31,754 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': 1} 
+2025-02-13 14:30:32,352 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:32,353 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:32,353 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:32,353 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:32,354 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data'] found in response.
+2025-02-13 14:30:32,354 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:32,355 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:32,355 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:32,355 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:32,365 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:32,366 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:32,366 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:32,367 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:32,367 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': ''} 
+2025-02-13 14:30:32,821 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:32,821 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:32,822 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:32,822 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:32,822 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:32,823 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:32,823 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:32,823 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:32,824 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:32,835 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:32,836 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:32,836 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:32,837 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:32,837 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': '1.1'} 
+2025-02-13 14:30:33,376 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:33,377 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:33,377 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:33,378 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:33,378 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:33,378 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:33,379 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:33,379 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:33,379 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:33,381 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:33,381 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:33,381 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:33,382 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:33,382 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {} 
+2025-02-13 14:30:33,776 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:33,777 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:33,777 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:33,778 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:33,778 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:33,778 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:33,779 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:33,779 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:33,779 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:33,789 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:33,790 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:33,790 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:33,790 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:33,791 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {} 
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:34,730 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:34,731 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:34,733 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:34,734 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user_recommendations
+2025-02-13 14:30:34,734 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:34,734 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:34,734 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user_recommendations, method is Get, headers = {}, payload = {}, params = {'role_id': '0'} 
+2025-02-13 14:30:35,735 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:35,736 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:35,736 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:35,736 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:35,737 :INFO : API_TEST_LOG :Success: All expected keys ['status', 'data'] found in response.
+2025-02-13 14:30:35,737 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:35,738 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:35,738 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:35,738 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:35,748 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:35,749 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
+2025-02-13 14:30:35,749 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:35,749 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:35,749 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the profit margin last quarter?', 'sql': "SELECT ((SUM(revenue_with_gst) - SUM(salary) - SUM(incentive)) / SUM(revenue_with_gst)) * 100 AS profit_margin FROM profitability WHERE month_year >= '2024-07-01' AND month_year < '2024-10-01';"}, params = {} 
+2025-02-13 14:30:36,739 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:36,739 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :Success: All expected keys ['message', 'status'] found in response.
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:36,740 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:36,742 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:36,743 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
+2025-02-13 14:30:36,743 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:36,743 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:36,743 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'question': 'What is the profit margin last quarter?'}, params = {} 
+2025-02-13 14:30:38,748 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:38,748 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:38,749 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:38,749 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:38,749 :INFO : API_TEST_LOG :Success: All expected keys ['error', 'message'] found in response.
+2025-02-13 14:30:38,750 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:38,750 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:38,751 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:38,751 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:38,760 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:38,760 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata
+2025-02-13 14:30:38,761 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:38,761 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:38,761 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/metadata, method is Get, headers = {}, payload = {}, params = {} 
+2025-02-13 14:30:40,770 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:40,771 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:40,772 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:40,772 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:40,772 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:40,782 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /metadata/309c1684-6295-54aa-b675-707f5e3e68e4-ddl
+2025-02-13 14:30:40,783 :INFO : API_TEST_LOG : endpointpoint !!!! else
+2025-02-13 14:30:40,793 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:40,793 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations
+2025-02-13 14:30:40,794 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:40,794 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:40,795 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/conversations, method is Get, headers = {}, payload = {}, params = {'user_id': 1} 
+2025-02-13 14:30:42,829 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:42,838 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:42,838 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:42,839 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:42,839 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:42,848 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:42,849 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations/296/messages
+2025-02-13 14:30:42,849 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:42,849 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:42,850 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/conversations/296/messages, method is Get, headers = {}, payload = {}, params = {'org_id': 2, 'user_id': 4} 
+2025-02-13 14:30:43,763 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:43,763 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:43,764 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:43,764 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:43,764 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:43,771 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /conversations
+2025-02-13 14:30:44,907 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:44,907 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
+2025-02-13 14:30:44,907 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:44,908 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:44,908 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Get, headers = {}, payload = {}, params = {'user_id': 2, 'org_id': 4} 
+2025-02-13 14:30:46,772 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:46,773 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:46,773 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:46,774 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:46,774 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:46,783 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:46,784 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
+2025-02-13 14:30:46,785 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:46,785 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:46,786 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Get, headers = {}, payload = {}, params = {'user_id': '', 'org_id': 4} 
+2025-02-13 14:30:47,775 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:47,776 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:47,776 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:47,776 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:47,777 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:47,777 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:47,777 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:47,777 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:47,777 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:47,779 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:47,780 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
+2025-02-13 14:30:47,780 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:47,780 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:47,780 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': 2, 'org_id': 4, 'question': 'which client has the highest billed hours'}, params = {} 
+2025-02-13 14:30:49,783 :INFO : API_TEST_LOG :response of data is <Response [409]>
+2025-02-13 14:30:49,784 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:49,784 :ERROR : API_TEST_LOG :Failure: Expected status code 201, but received 409
+2025-02-13 14:30:49,794 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:49,795 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions
+2025-02-13 14:30:49,795 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:49,795 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:49,795 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/starred-questions, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'user_id': '', 'org_id': 4, 'question': 'What is the monthly sales trend for each region?'}, params = {} 
+2025-02-13 14:30:50,790 :INFO : API_TEST_LOG :response of data is <Response [500]>
+2025-02-13 14:30:50,791 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:50,791 :INFO : API_TEST_LOG :Success: Status code is 500 as expected.
+2025-02-13 14:30:50,792 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:50,792 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:50,795 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /starred-questions/pid
+2025-02-13 14:30:51,790 :INFO : API_TEST_LOG :Result of POST: 201, Response: {'pid': 220, 'user_id': 2, 'org_schema_id': 4, 'question': 'math'}
+2025-02-13 14:30:51,790 :INFO : API_TEST_LOG :Constructed DELETE URL: https://sql-generator-90052637893.us-central1.run.app/starred-questions/220
+2025-02-13 14:30:52,792 :INFO : API_TEST_LOG :response of data is <Response [200]>
+2025-02-13 14:30:52,793 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:52,793 :INFO : API_TEST_LOG :Success: Status code is 200 as expected.
+2025-02-13 14:30:52,794 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:52,794 :INFO : API_TEST_LOG : endpointpoint !!!! else
+2025-02-13 14:30:52,802 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:52,803 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/reset_passcode
+2025-02-13 14:30:52,803 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:52,803 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:52,804 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/reset_passcode, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'old_passcode': '123456', 'new_passcode': '310125', 'org_id': 5, 'user_id': 12}, params = {} 
+2025-02-13 14:30:55,701 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:30:55,702 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:55,702 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:30:55,703 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:55,703 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:55,703 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:55,704 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:55,704 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:55,704 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:55,707 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:55,707 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/reset_passcode
+2025-02-13 14:30:55,707 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:55,707 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:55,707 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/reset_passcode, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'old_passcode': '310125', 'new_passcode': '123456', 'org_id': 6, 'user_id': 11}, params = {} 
+2025-02-13 14:30:57,651 :INFO : API_TEST_LOG :response of data is <Response [404]>
+2025-02-13 14:30:57,651 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:30:57,652 :INFO : API_TEST_LOG :Success: Status code is 404 as expected.
+2025-02-13 14:30:57,652 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:30:57,653 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:30:57,653 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:30:57,654 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:30:57,654 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:30:57,654 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:30:57,662 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:30:57,663 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/reset_passcode
+2025-02-13 14:30:57,663 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:30:57,664 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:30:57,664 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/reset_passcode, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'old_passcode': '310145', 'new_passcode': '123456', 'org_id': 5, 'user_id': 11}, params = {} 
+2025-02-13 14:31:01,821 :INFO : API_TEST_LOG :response of data is <Response [401]>
+2025-02-13 14:31:01,821 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:31:01,822 :INFO : API_TEST_LOG :Success: Status code is 401 as expected.
+2025-02-13 14:31:01,822 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:31:01,822 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:31:01,823 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:31:01,823 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:31:01,823 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:31:01,823 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:31:01,826 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:31:01,826 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/reset_passcode
+2025-02-13 14:31:01,827 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:31:01,827 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:31:01,827 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/reset_passcode, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'old_passcode': '310125', 'new_passcode': '310125', 'org_id': 5, 'user_id': 11}, params = {} 
+2025-02-13 14:31:03,827 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:31:03,827 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:31:03,827 :INFO : API_TEST_LOG :Success: Status code is 400 as expected.
+2025-02-13 14:31:03,828 :INFO : API_TEST_LOG :*********************** Status Code Asserted *****************************
+2025-02-13 14:31:03,828 :INFO : API_TEST_LOG :Success: All expected keys ['error'] found in response.
+2025-02-13 14:31:03,828 :INFO : API_TEST_LOG :***********************Response Keys Asserted*****************************
+2025-02-13 14:31:03,829 :INFO : API_TEST_LOG :Success: Response body matches expected response.
+2025-02-13 14:31:03,829 :INFO : API_TEST_LOG :***********************Response Body Asserted*****************************
+2025-02-13 14:31:03,829 :INFO : API_TEST_LOG :***********************API Test Ends*****************************
+2025-02-13 14:31:03,837 :INFO : API_TEST_LOG : method @@@@@ else
+2025-02-13 14:31:03,838 :INFO : API_TEST_LOG :Processing DELETE method for endpoint: /user/reset_passcode
+2025-02-13 14:31:03,838 :INFO : API_TEST_LOG :***********************API Test Start*****************************
+2025-02-13 14:31:03,839 :INFO : API_TEST_LOG :***********************API Request Made*****************************
+2025-02-13 14:31:03,839 :INFO : API_TEST_LOG :url is https://sql-generator-90052637893.us-central1.run.app/user/reset_passcode, method is Post, headers = {'Content-Type': 'application/json'}, payload = {'old_passcode': '123456', 'new_passcode': '310125', 'org_id': 5, 'user_id': 11}, params = {} 
+2025-02-13 14:31:05,716 :INFO : API_TEST_LOG :response of data is <Response [400]>
+2025-02-13 14:31:05,717 :INFO : API_TEST_LOG :*********************** Response Received *****************************
+2025-02-13 14:31:05,718 :ERROR : API_TEST_LOG :Failure: Expected status code 200, but received 400

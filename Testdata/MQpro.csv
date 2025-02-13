@@ -1,6 +1,6 @@
 Testcase ID,Testcase Type,endpoint,method,auth_required,expired_token,headers,payload,params,expected_status_code,expected_response_keys,expected_responce_body
-TC_MQpro_Login_001a,positive,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": ""051224"",""org_id"": 2}",,200,"status,data,message","{ ""status"": 200,""data"": {  ""id"": 4,   ""role_id"": 2,   ""name"": ""Joseph Doe"",    ""org_id"": 2 },""message"": ""Login successful""}"
-TC_MQpro_Login_001b,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": ""453637"",""org_id"": 2}",,401,error,"{  ""error"": ""Invalid passcode""}"
+TC_MQpro_Login_001a,positive,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": ""051224"",""org_id"": 2}",,200,"status,data,message","{ ""status"": 200,""data"": { ""id"": 4, ""role_id"": 2, ""name"": ""Joseph Doe"", ""org_id"": 2 },""message"": ""Login successful""}"
+TC_MQpro_Login_001b,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": ""453637"",""org_id"": 2}",,401,error,"{ ""error"": ""Invalid passcode""}"
 TC_MQpro_Login_001c,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"":"" 6789090"",""org_id"":2}",,400,error,"{ ""error"": ""Invalid passcode format. Must be 6 digits.""}"
 TC_MQpro_Login_001d,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"":"" 6789"",""org_id"":2}",,400,error,"{ ""error"": ""Invalid passcode format. Must be 6 digits.""}"
 TC_MQpro_Login_001e,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": """",""org_id"":2}",,400,error,"{ ""error"": ""Invalid passcode format. Must be 6 digits.""}"
@@ -8,119 +8,155 @@ TC_MQpro_Login_001f,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""a
 TC_MQpro_Login_001g,negative,/user/login,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""passcode"": { ""passcode"": 241024 },""org_id"":2}",,500,error,"{ ""error"": ""Internal server error""}"
 TC_MQpro_GenerateSql_002,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{ ""question"": ""What is the total number of employees?"", ""org_id"": 2, ""user_id"": 4}",,200,conversation_id,
 TC_MQpro_GenerateSql_002a,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
-    ""question"": ""What is the total number of employees?"",
-    ""org_id"": 2,
-    ""user_id"": 1.1
+""question"": ""What is the total number of employees?"",
+""org_id"": 2,
+""user_id"": 1.1
 }",,400,error,"{
-    ""error"": ""Invalid or Missing user_id""
+""error"": ""Invalid or Missing user_id""
 }"
 TC_MQpro_GenerateSql_002b,positive,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
-    ""question"": ""What is the total number of employees?"",
-    ""org_id"": 2.1,
-    ""user_id"": 4
+""question"": ""What is the total number of employees?"",
+""org_id"": 2.1,
+""user_id"": 4
 }",,400,error,"{
-    ""error"": ""Invalid or Missing org_id""
+""error"": ""Invalid or Missing org_id""
 }"
 TC_MQpro_GenerateSql_002c,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
-    ""question"": ""What is the total number of employees?"",
-    ""org_id"": 1.1,
-    ""user_id"": 4.1
+""question"": ""What is the total number of employees?"",
+""org_id"": 1.1,
+""user_id"": 4.1
 }",,400,error,"{
-    ""error"": ""Invalid or Missing user_id""
+""error"": ""Invalid or Missing user_id""
 }"
 TC_MQpro_GenerateSql_002d,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""user_id"":2, ""org_id"":4}",,400,error,"{
-    ""error"": ""Invalid or Missing question""
+""error"": ""Invalid or Missing question""
 }"
 TC_MQpro_GenerateSql_002e,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""question"":""What is the lowest cost product"", ""org_id"":4}",,400,error,"{
-    ""error"": ""Invalid or Missing user_id""
+""error"": ""Invalid or Missing user_id""
 }"
 TC_MQpro_GenerateSql_002f,negative,/generate_sql,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{""question"":""What is the lowest cost product"", ""user_id"":1}",,400,error,"{
-    ""error"": ""Invalid or Missing org_id""
+""error"": ""Invalid or Missing org_id""
 }"
 TC_MQpro_FAQ's_003a,positive,/user_recommendations,Get,FALSE,FALSE,,,"{""role_id"": 1}",200,"status,data","{
-    ""status"": 200,
-    ""data"": [
-        {
-            ""id"": 3,
-            ""role_id"": 1,
-            ""question"": ""Which product has the lowest margin?"",
-            ""type"": ""margin""
-        },
-        {
-            ""id"": 4,
-            ""role_id"": 1,
-            ""question"": ""How many new products were added this year?"",
-            ""type"": ""products""
-        },
-        {
-            ""id"": 1,
-            ""role_id"": 1,
-            ""question"": ""What are the top 5 products by sales?"",
-            ""type"": ""sales""
-        },
-        {
-            ""id"": 2,
-            ""role_id"": 1,
-            ""question"": ""What product have >1K in sales?"",
-            ""type"": ""regional""
-        }
-    ]
+""status"": 200,
+""data"": [
+{
+""id"": 3,
+""role_id"": 1,
+""question"": ""Which product has the lowest margin?"",
+""type"": ""margin""
+},
+{
+""id"": 4,
+""role_id"": 1,
+""question"": ""How many new products were added this year?"",
+""type"": ""products""
+},
+{
+""id"": 1,
+""role_id"": 1,
+""question"": ""What are the top 5 products by sales?"",
+""type"": ""sales""
+},
+{
+""id"": 2,
+""role_id"": 1,
+""question"": ""What product have >1K in sales?"",
+""type"": ""regional""
+}
+]
 }"
 TC_MQpro_FAQ's_003b,negetive,/user_recommendations,Get,FALSE,FALSE,,,"{""role_id"": """"}",400,error,"{
-    ""error"": ""role_id parameter is required""
+""error"": ""role_id parameter is required""
 }"
 TC_MQpro_FAQ's_003c,negetive,/user_recommendations,Get,FALSE,FALSE,,,"{""role_id"": ""1.1""}",400,error,"{
-    ""error"": ""role_id parameter is required""
+""error"": ""role_id parameter is required""
 }"
 TC_MQpro_FAQ's_003d,negetive,/user_recommendations,Get,FALSE,FALSE,,,{ },400,error,"{
-    ""error"": ""role_id parameter is required""
+""error"": ""role_id parameter is required""
 }"
 TC_MQpro_FAQ's_003e,negetive,/user_recommendations,Get,FALSE,FALSE,,,,400,error,"{
-    ""error"": ""role_id parameter is required""
+""error"": ""role_id parameter is required""
 }"
 TC_MQpro_FAQ's_003f,positive,/user_recommendations,Get,FALSE,FALSE,,,"{""role_id"": ""0""}",200,"status,data","{
-    ""status"": 200,
-    ""data"": []
+""status"": 200,
+""data"": []
 }"
 TC_MQpro_Addmetadata_004a,positive,/metadata,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
 ""question"": ""What is the profit margin last quarter?"",
 ""sql"": ""SELECT ((SUM(revenue_with_gst) - SUM(salary) - SUM(incentive)) / SUM(revenue_with_gst)) * 100 AS profit_margin FROM profitability WHERE month_year >= '2024-07-01' AND month_year < '2024-10-01';""
 }",,200,"message,status","{
-    ""message"": ""Training completed successfully"",
-    ""trained_elements"": [
-        ""question-sql""
-    ],
-    ""status"": 200
+""message"": ""Training completed successfully"",
+""trained_elements"": [
+""question-sql""
+],
+""status"": 200
 }"
 TC_MQpro_Addmetadata_004b,negetive,/metadata,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
 ""question"": ""What is the profit margin last quarter?""
 }",,400,"error,message","{
-    ""error"": ""Invalid data"",
-    ""message"": ""No valid training data provided. Please provide either DDL, documentation, or question-SQL pair""
+""error"": ""Invalid data"",
+""message"": ""No valid training data provided. Please provide either DDL, documentation, or question-SQL pair""
 }"
 TC_MQpro_Getmetadata_004c,positive,/metadata,Get,FALSE,FALSE,,,,200,,
 TC_MQpro_Deletemetadata_004d,positive,/metadata/309c1684-6295-54aa-b675-707f5e3e68e4-ddl,Delete,FALSE,FALSE,,,,200,message,"{
-    ""message"": ""Metadata with ID '309c1684-6295-54aa-b675-707f5e3e68e4-ddl' deleted successfully.""
+""message"": ""Metadata with ID '309c1684-6295-54aa-b675-707f5e3e68e4-ddl' deleted successfully.""
 }"
 TC_MQpro_Conversation's_005a,positive,/conversations,Get,FALSE,FALSE,,,"{""user_id"": 1}",200,,
 TC_MQpro_Conversation's_msg_005b,positive,/conversations/296/messages,Get,FALSE,FALSE,,,"{""org_id"":2,""user_id"":4}",200,,
 TC_MQpro_Conversation's_delete_005c,positive,/conversations,Delete,FALSE,FALSE,,,"{""user_id"":1,""conversation_id"":998}",200,"status,message","{
-    ""status"": 200,
-    ""message"": ""Conversation deleted successfully""
+""status"": 200,
+""message"": ""Conversation deleted successfully""
 }"
 TC_Mqpro_Conversation's_delete_005d,positive,/user_conversations,Delete,FALSE,FALSE,,,,,,
 TC_MQpro_starred_qns_006a,positive,/starred-questions,Get,FALSE,FALSE,,,"{""user_id"":2,""org_id"":4}",200,,
 TC_MQpro_starred_qns_006b,negetive,/starred-questions,Get,FALSE,FALSE,,,"{""user_id"":"""",""org_id"":4}",400,error,"{
-    ""error"": ""Both user_id and org_id are required parameters""
+""error"": ""Both user_id and org_id are required parameters""
 }"
 TC_MQpro_starred_qns_006c,positive,/starred-questions,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
-    ""user_id"": 2,
-    ""org_id"":4,
-    ""question"": ""which client has the highest billed hours""
+""user_id"": 2,
+""org_id"":4,
+""question"": ""which client has the highest billed hours""
 }",,201,,
 TC_MQpro_starred_qns_006d,negetive,/starred-questions,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
-    ""user_id"": """",
-    ""org_id"":4,
-    ""question"": ""What is the monthly sales trend for each region?""
+""user_id"": """",
+""org_id"":4,
+""question"": ""What is the monthly sales trend for each region?""
 }",,500,,
-TC_MQpro_starred_qns_006e,positive,/starred-questions/pid,Delete,FALSE,FALSE,,,,200,,
+TC_MQpro_starred_qns_006e,positive,/starred-questions/pid,Delete,FALSE,FALSE,"{""Content-Type"":""application/json""}",,,200,,
+TC_Mqpro_reset_passcode_007a,negative,/user/reset_passcode,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
+""old_passcode"":""123456"",
+""new_passcode"":""310125"",
+""org_id"": 5,
+""user_id"": 12}",,400,error,"{
+""error"": ""New passcode already in use""
+}"
+TC_Mqpro_reset_passcode_007b,negative,/user/reset_passcode,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
+""old_passcode"":""310125"",
+""new_passcode"":""123456"",
+""org_id"": 6,
+""user_id"": 11}",,404,error,"{
+""error"": ""User not found with the provided user_id and org_id""
+}"
+TC_Mqpro_reset_passcode_007c,negative,/user/reset_passcode,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
+""old_passcode"":""310145"" ,
+""new_passcode"": ""123456"",
+""org_id"": 5,
+""user_id"": 11}",,401,error,"{
+""error"": ""Old passcode does not match the current passcode for this user""
+}"
+TC_Mqpro_reset_passcode_007d,negative,/user/reset_passcode,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
+""old_passcode"":""310125"" ,
+""new_passcode"": ""310125"",
+""org_id"": 5,
+""user_id"": 11}",,400,error,"{
+""error"": ""New passcode already in use""
+}"
+TC_Mqpro_reset_passcode_007e,positive,/user/reset_passcode,Post,FALSE,FALSE,"{""Content-Type"":""application/json""}","{
+""old_passcode"":""123456"" ,
+""new_passcode"": ""310125"",
+""org_id"": 5,
+""user_id"": 11}",,200,"status,message","{
+""status"": 200,
+""message"": ""Passcode updated successfully""
+}"
